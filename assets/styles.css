@@ -1,0 +1,89 @@
+::-moz-selection {
+  color: darkgray;
+  background: midnightblue;
+  border-radius: 3px;
+}
+
+::selection {
+  color: darkgray;
+  background: midnightblue;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+
+body, html {
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.open-sans {
+  font-family: 'Open Sans';
+}
+
+.background-animate {
+  background-size: 400%;
+  -webkit-animation: background 40s ease infinite;
+  -moz-animation: background 40s ease infinite;
+  animation: background 40s ease infinite;
+}
+
+.textBackground-animate {
+  background-size: 400%;
+  -webkit-animation: background 40s ease infinite;
+  -moz-animation: background 40s ease infinite;
+  animation: background 40s ease infinite;
+}
+
+@keyframes background {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+a1 {
+  font-size: 32px !important;
+}
+
+a2 {
+  font-size: 25px !important;
+}
+
+a3 {
+  font-size: 21px !important;
+}
+
+a4 {
+  font-size: 17px !important;
+}
+
+a5 {
+  font-size: 13px !important;
+}
