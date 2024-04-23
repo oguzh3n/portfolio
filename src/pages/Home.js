@@ -331,7 +331,7 @@ class Footer extends React.Component {
 const Home = () => {
   return (
     <div className="p-7 mt-36">
-      <Badge text="Source for beginners" link=""/>
+      <Badge text="Source for beginners" link="https://github.com/oguzh3n/portfolio"/>
       <Section1 title="Hello I'm" name="Oguzhan"/>
       <Shadow/>
       <Section2 title="Skills: Technologies"/>
